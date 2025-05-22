@@ -31,11 +31,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="destinations.html" class="nav-item nav-link">Destinations</a>
-                        <a href="#" class="nav-item nav-link">Reviews</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="index.html" class="nav-item nav-link lang" key="home">Home</a>
+                        <li class="nav-item"><a href="about.html" class="nav-item nav-link lang" key="about"><span>About</span></a></li>
+                        <a href="destinations.html" class="nav-item nav-link lang" key="destinations">Destinations</a>
+                        <a href="contact.html" class="nav-item nav-link lang" key="contact">Contact</a>
+                        <button id="en" class="btn btn-dark py-3 px-4 translate" type="submit"><span class="io"></span>English</button>
+                        <button  id="al" class="btn btn-danger py-3 px-4 translate" type="submit"><span class="io"></span>Albanian</button>
+                        <button id="it" class="btn btn-light py-3 px-4 translate" type="submit"><span class="io"></span>Italian</button>
                     </div>
                 </div>
             </nav>
@@ -48,7 +50,7 @@
         <div class="container py-5">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact</h6>
-                <h1>Contact For Any Query</h1>
+                <h1 class="lang" key="cnt1">Contact For Any Query</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -79,7 +81,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn btn-primary py-3 px-4 lang" type="submit" id="sendMessageButton" key="cntbtn">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -103,6 +105,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+            <script src="scripts/lang.js"></script>
 </body>
 
 </html>

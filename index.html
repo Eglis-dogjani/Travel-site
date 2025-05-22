@@ -24,33 +24,36 @@
 <body id="page-top">
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-      <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-          <nav class="navbar navbar-expand-lg bg-success navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-              <a href="" class="navbar-brand">
-                  <h1 class="m-0 text-primary"><span class="text-dark">AVENTURA</span>TI</h1>
-              </a>
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                  <div class="navbar-nav ml-auto py-0">
-                      <a href="index.html" class="nav-item nav-link">Home</a>
-                      <a href="about.html" class="nav-item nav-link active">About</a>
-                      <a href="destinations.html" class="nav-item nav-link">Destinations</a>
-                      <a href="reviews.html" class="nav-item nav-link">Reviews</a>
-                      <a href="contact.html" class="nav-item nav-link">Contact</a>
-                  </div>
-              </div>
-          </nav>
-      </div>
-  </div>
-  <!-- Navbar End -->
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-success navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">AVENTURA</span>TI</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link lang" key="home">Home</a>
+                        <a href="about.html" class="nav-item nav-link lang" key="about">About</a>
+                        <a href="destinations.html" class="nav-item nav-link lang" key="destinations">Destinations</a>
+                        <a href="contact.html" class="nav-item nav-link lang" key="contact">Contact</a>
+                        <button id="en" class="btn btn-dark py-3 px-4 translate" type="submit"><span class="io"></span>English</button>
+                        <button  id="al" class="btn btn-danger py-3 px-4 translate" type="submit"><span class="io"></span>Albanian</button>
+                        <button id="it" class="btn btn-light py-3 px-4 translate" type="submit"><span class="io"></span>Italian</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
     <!-- Header Starts -->
     <section id="Banner" class="content-section">
       <div class="container content-wrap text-center">
-        <h1>Aventurati <a href="">.</a><img src="images/globe-2.gif" alt="https://usagif.com/gif/globe-24/ style="width:100%;"><!--<i class="fa fa-globe fa-5x"></i>--></h1>
+        <h1>Aventurati <a href="https://aventurati.netlify.app">.</a><img src="images/globe-2.gif" alt="https://usagif.com/gif/globe-24/ style="width:100%;"><!--<i class="fa fa-globe fa-5x"></i>--></h1>
         <h3>
-              <cite> Become a traveller! Do you want to explore this beautiful world???      </cite>
+              <cite class="lang" key="quote"> Become a traveller! Do you want to explore this beautiful world???      </cite>
           </h3>
           <a class="btn btn-success btn-xl" href="contact.html">Contact Us for More</a>
       </div>
@@ -64,6 +67,7 @@
 
     <!-- Main Javascript -->
     <script src="js/main.js"></script>
+        <script src="scripts/lang.js"></script>
 
 </body>
 
