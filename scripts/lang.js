@@ -1,6 +1,10 @@
 var arrLang = {
     'en': {
-        'home': 'Home',        
+        'home': 'Home',
+        'hero': 'Tours & Travel',
+        "hero1": "Let's Discover The World Together",
+        'hero2': 'Travel & Tours',
+        'hero3': 'Discover Amazing Places With Us',       
         'about': 'About us',
         'destinations':'Destinations',
         'contact':'Contact',
@@ -19,7 +23,11 @@ var arrLang = {
         'cntbtn':'Send Message',
     },
     'al': {
-        'home': 'Shtepia',        
+        'home': 'Shtepia',
+        'hero': 'Turizmi Shqiptar',
+        "hero1": "Udhëtime të bukura në Shqipëri",
+        'hero2': 'Bregdeti SHqiptar',
+        'hero3': 'Zbuloni plazhet e bukura të Shqiperisë',         
         'about': 'Rreth nesh',
         'destinations':'Destinacione',
         'contact':'Kontakti',
@@ -38,7 +46,11 @@ var arrLang = {
         'cntbtn':'Dërgo Mesazh',  
     },
     'it': {
-        'home': 'Casa',        
+        'home': 'Casa',
+        'hero': 'Turismo albanese',
+        "hero1": "Fantastici viaggi in Albania",
+        'hero2': 'Costa meridionale albanese',
+        'hero3': 'Esplora la costa albanese',         
         'about': 'Chi siamo',
         'destinations':'Destinazioni',
         'contact':'Contatto',
